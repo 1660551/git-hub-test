@@ -13,4 +13,5 @@ public interface INewService {
 	NewDTO findById(Long id);
 	NewDTO save(NewDTO dto);
 	void delete(long[] ids);
+	NewDTO updateTest(NewDTO dto);
 }

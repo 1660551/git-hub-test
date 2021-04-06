@@ -25,6 +25,7 @@ public class NewAPI {
 	@PutMapping("/api/new")
 	public NewDTO updateNew(@RequestBody NewDTO updateNew) {
 		return newService.save(updateNew);
+//		return newService.updateTest(updateNew);
 	}
 	
 	@DeleteMapping("/api/new")
